@@ -81,6 +81,8 @@ article {
     background-color: #f2f2f2;
     padding: 50px 0;
     text-align: center;
+    border-bottom: solid;
+    margin-bottom: 5px;
 }
 
 #welcome h1 {
@@ -168,6 +170,7 @@ article {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    border-top: solid;
 }
 
 .mySlides {

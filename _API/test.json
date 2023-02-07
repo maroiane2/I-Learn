@@ -1,0 +1,16 @@
+{
+    "string": "marouane",
+    "number": "100",
+    "object": {
+        "EG": "Giza",
+        "KSA": "Riyadh"
+    },
+    "array": [
+        "html",
+        "css",
+        "js",
+        "json"
+    ],
+    "boolean": true,
+    "null": null
+}

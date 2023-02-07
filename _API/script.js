@@ -5,3 +5,6 @@ fetch("https://randomuser.me/api/")
     .then(function(data){
         console.log(data)
     })
+
+
+let content = document.getElementById("content")

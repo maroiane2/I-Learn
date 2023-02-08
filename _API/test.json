@@ -1,16 +1,20 @@
 {
-    "string": "marouane",
-    "number": "100",
-    "object": {
-        "EG": "Giza",
-        "KSA": "Riyadh"
+    "Customer : 1":{
+        "id": 29411,
+        "name": "marouane",
+        "age": 18,
+        "address": "agadir"
     },
-    "array": [
-        "html",
-        "css",
-        "js",
-        "json"
-    ],
-    "boolean": true,
-    "null": null
+    "Customer : 2":{
+        "id": 29412,
+        "name": "ahmad",
+        "age": 29,
+        "address": "canada"
+    },
+    "Customer : 3":{
+        "id": 29413,
+        "name": "ayman",
+        "age": 22,
+        "address": "rosia"
+    }
 }

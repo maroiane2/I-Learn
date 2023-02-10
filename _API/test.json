@@ -1,45 +1,37 @@
 {
-    "Customer": {
-        "name": "marouane",
-        "location": "moroco",
-        "skills": [
-            [
-                "html",
-                "Pugjs",
-                "haml"
-            ],
-            [
-                "css",
-                "Sass",
-                "Less"
-            ],
-            [
-                "js",
-                "Babel"
-            ]
-        ],
-        "skillsProgress": [
-            {
-                "html": "60%",
-                "Pugjs": "50%"
-            },
-            {
-                "css": "70%",
-                "Sass": "60%"
-            }
-        ],
-        "addresses": {
-            "moroco": "agadir",
-            "KSA": "Malaz",
-            "USA": "california",
-            "germant": [
-                "one",
-                "two",
-                "three"
-            ]
+    "name": "marouane",
+    "age": 18,
+    "email": "devopscode9@gamil.com",
+    "address": {
+        "street": "106 janan labob",
+        "city": "agadir",
+        "nation": "moroco",
+        "zip": "88888"
+    },
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "555-555-5678"
         },
-        "age": 18,
-        "working": false,
-        "identity": null
-    }
+        {
+            "type": "work",
+            "number": "212-688-007-792"
+        }
+    ],
+    "skills": [
+        [
+            "html",
+            "Pugjs",
+            "haml"
+        ],
+        [
+            "css",
+            "Sass",
+            "Less"
+        ],
+        [
+            "js",
+            "Babel"
+        ]
+    ]
 }

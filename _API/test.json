@@ -1,20 +1,45 @@
 {
-    "Customer : 1":{
-        "id": 29411,
+    "Customer": {
         "name": "marouane",
+        "location": "moroco",
+        "skills": [
+            [
+                "html",
+                "Pugjs",
+                "haml"
+            ],
+            [
+                "css",
+                "Sass",
+                "Less"
+            ],
+            [
+                "js",
+                "Babel"
+            ]
+        ],
+        "skillsProgress": [
+            {
+                "html": "60%",
+                "Pugjs": "50%"
+            },
+            {
+                "css": "70%",
+                "Sass": "60%"
+            }
+        ],
+        "addresses": {
+            "moroco": "agadir",
+            "KSA": "Malaz",
+            "USA": "california",
+            "germant": [
+                "one",
+                "two",
+                "three"
+            ]
+        },
         "age": 18,
-        "address": "agadir"
-    },
-    "Customer : 2":{
-        "id": 29412,
-        "name": "ahmad",
-        "age": 29,
-        "address": "canada"
-    },
-    "Customer : 3":{
-        "id": 29413,
-        "name": "ayman",
-        "age": 22,
-        "address": "rosia"
+        "working": false,
+        "identity": null
     }
 }

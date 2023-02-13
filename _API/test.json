@@ -1,49 +1,85 @@
 {
-    "phoneNumbers": [
+    "title": "My E-commerce Website",
+    "nav": [
         {
-            "type": "home",
-            "number": "555-555-5678"
+            "name": "Home",
+            "link": "#home"
         },
         {
-            "type": "work",
-            "number": "212-688-007-792"
+            "name": "About",
+            "link": "#about"
+        },
+        {
+            "name": "Services",
+            "link": "#services"
+        },
+        {
+            "name": "Contact",
+            "link": "#contact"
         }
     ],
-    "skills": [
-        {
-            "Languages": [
-                {
-                    "First": "English"
-                },
-                {
-                    "second": "French"
-                }
-            ],
-            "programing": [
-                {
-                    "First": {
-                        "frontend": [
-                            "html",
-                            "CSS",
-                            "CSS3",
-                            "Javascript",
-                            "json",
-                            "design",
-                            "react",
-                            "sass",
-                            "bootstrap",
-                            "tailwind"
-                        ]
-                    },
-                    "second": {
-                        "backend": [
-                            ".....",
-                            ".....",
-                            "....."
-                        ]
-                    }
-                }
-            ]
+    "main": {
+        "welcome": {
+            "heading": "Welcome to our website",
+            "text": "We're glad you're here! We have a lot to offer, including information about our products and services, as well as resources to help you make the most of your visit.",
+            "button": "Learn More",
+            "modal": {
+                "heading": "Learn More",
+                "text": "Here is some important information about our main site and why it's beneficial to buy from us.",
+                "list": [
+                    "We offer a wide range of products",
+                    "We have competitive prices",
+                    "We have a user-friendly website",
+                    "We provide excellent customer service"
+                ],
+                "thankyou": "Thank you for considering our main site for your purchases."
+            }
+        },
+        "slideshow": [
+            "/image/image1.jpg",
+            "/image/image2.jpg",
+            "/image/image3.jpg"
+        ],
+        "buyfromus": {
+            "image": "/image/image4.jpg",
+            "heading": "Why Buy from Our Main Site?",
+            "text1": "When you buy from our main site, you can be sure that you're getting the best products at the best prices. Our main site offers a wide selection of products, all backed by our 100% satisfaction guarantee.",
+            "text2": "Additionally, buying from our main site means you'll have access to our top-notch customer service team, who is always happy to help you with any questions or concerns. And, when you make a purchase on our main site, you'll be supporting our company directly, which helps us continue to bring you the best products and services."
         }
-    ]
+    },
+    "footer": {
+        "contact": {
+            "address": "123 Main St, agadir, moroco",
+            "phone": "+212-688-007-792",
+            "email": "devopscode9@gmail.com"
+        },
+        "quicklinks": [
+            {
+                "name": "Home",
+                "link": "#home"
+            },
+            {
+                "name": "About",
+                "link": "#about"
+            },
+            {
+                "name": "Services",
+                "link": "#services"
+            },
+            {
+                "name": "Contact",
+                "link": "#contact"
+            }
+        ],
+        "socialmedia": [
+            {
+                "name": "facebook",
+                "link": "https://www.facebook.com/"
+            },
+            {
+                "name": "twitter",
+                "link": "https://twitter.com/Code..."
+            }
+        ]
+    }
 }

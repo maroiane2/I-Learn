@@ -1,13 +1,4 @@
 {
-    "name": "marouane",
-    "age": 18,
-    "email": "devopscode9@gamil.com",
-    "address": {
-        "street": "106 janan labob",
-        "city": "agadir",
-        "nation": "moroco",
-        "zip": "88888"
-    },
     "phoneNumbers": [
         {
             "type": "home",
@@ -19,19 +10,40 @@
         }
     ],
     "skills": [
-        [
-            "html",
-            "Pugjs",
-            "haml"
-        ],
-        [
-            "css",
-            "Sass",
-            "Less"
-        ],
-        [
-            "js",
-            "Babel"
-        ]
+        {
+            "Languages": [
+                {
+                    "First": "English"
+                },
+                {
+                    "second": "French"
+                }
+            ],
+            "programing": [
+                {
+                    "First": {
+                        "frontend": [
+                            "html",
+                            "CSS",
+                            "CSS3",
+                            "Javascript",
+                            "json",
+                            "design",
+                            "react",
+                            "sass",
+                            "bootstrap",
+                            "tailwind"
+                        ]
+                    },
+                    "second": {
+                        "backend": [
+                            ".....",
+                            ".....",
+                            "....."
+                        ]
+                    }
+                }
+            ]
+        }
     ]
 }

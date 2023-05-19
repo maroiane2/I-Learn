@@ -5,5 +5,7 @@
 
     echo '<br>';
 
-    $phpArray = json_decode($json)
+    $phpArray = json_decode($json);
     var_dump($phpArray);
+
+?>
